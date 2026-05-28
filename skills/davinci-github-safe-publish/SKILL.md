@@ -1,0 +1,1 @@
+skills/davinci-github-safe-publish/SKILL.md

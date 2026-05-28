@@ -1,0 +1,28 @@
+{
+  "name": "davinci-skills",
+  "description": "Claude Code skills that simplify complex tasks",
+  "version": "0.8.0",
+  "owner": {
+    "name": "zwyin"
+  },
+  "plugins": [
+    {
+      "name": "davinci-skills",
+      "description": "Claude Code skills that simplify complex tasks",
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "claude-code",
+        "skills",
+        "productivity",
+        "github",
+        "publishing",
+        "walkthrough"
+      ],
+      "skills": [
+        "./skills/davinci-github-safe-publish/skills/davinci-github-safe-publish",
+        "./skills/davinci-project-walkthrough/skills/davinci-project-walkthrough"
+      ]
+    }
+  ]
+}
