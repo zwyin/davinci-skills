@@ -11,7 +11,7 @@ CACHE_DIR="${HOME}/.cache/skill-update"
 CACHE_FILE="${CACHE_DIR}/project-walkthrough.json"
 
 REPO="zwyin/davinci-skills"
-PLUGIN_KEY="davinci-skills"
+PLUGIN_KEY="davinci-skills@davinci-skills"
 CHECK_INTERVAL_HOURS=24
 
 # --- 1. Read local version ---
