@@ -1,7 +1,7 @@
 {
   "name": "davinci-skills",
   "description": "Claude Code skills that simplify complex tasks",
-  "version": "0.8.0",
+  "version": "0.8.4",
   "owner": {
     "name": "zwyin"
   },
