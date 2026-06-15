@@ -75,12 +75,12 @@ GitHub Safe Publish 用 **确定性规则扫描**（135 条正则，覆盖 6 个
 ## 使用方法
 
 ```
-/davinci-github-safe-publish                    # 完整流程：扫描 → 修复 → 发布
-/davinci-github-safe-publish --scan-only        # 只做脱敏扫描，输出报告，不修复不发布
-/davinci-github-safe-publish --dry-run          # 扫描 + 展示修复建议，不做任何实际修改
-/davinci-github-safe-publish --seo              # 完整流程 + SEO 优化
-/davinci-github-safe-publish --ci               # 完整流程 + CI 工作流生成
-/davinci-github-safe-publish --seo --ci         # 全部功能
+/davinci-github-safe-publish               # 完整流程：扫描 → 修复 → 发布
+/davinci-github-safe-publish --scan-only   # 只做脱敏扫描，输出报告，不修复不发布
+/davinci-github-safe-publish --dry-run     # 扫描 + 展示修复建议，不做任何实际修改
+/davinci-github-safe-publish --seo         # 完整流程 + SEO 优化
+/davinci-github-safe-publish --ci          # 完整流程 + CI 工作流生成
+/davinci-github-safe-publish --seo --ci    # 全部功能
 ```
 
 ### 流程控制
@@ -119,41 +119,41 @@ Step 6: 验证 + 输出报告
 
 ### 方式 1：Browse UI
 
-选择 **Browse and install plugins** → 选择 **github-safe-publish** → 选择 **Install now**
+选择 **Browse and install plugins** → 选择 **davinci-skills** → 选择 **Install now**
 
 ### 方式 2：Marketplace 安装
 
 ```bash
 # 1. 添加 marketplace
-/plugin marketplace add zwyin/davinci-github-safe-publish
+/plugin marketplace add zwyin/davinci-skills
 
 # 2. 安装插件
-/plugin install github-safe-publish@github-safe-publish
+/plugin install davinci-skills@davinci-skills
 ```
 
 ### 方式 3：让 Agent 安装
 
 ```
-Please install github-safe-publish from github.com/zwyin/davinci-github-safe-publish
+Please install davinci-skills from github.com/zwyin/davinci-skills
 ```
 
 ### 方式 4：npx 快速安装
 
 ```bash
-npx skills add zwyin/davinci-github-safe-publish
+npx skills add zwyin/davinci-skills
 ```
 
 ### 方式 5：ClawHub
 
 ```bash
-clawhub install github-safe-publish
+clawhub install davinci-skills
 ```
 
 ### 方式 6：手动安装
 
 ```bash
-git clone https://github.com/zwyin/github-safe-publish.git
-claude --plugin-dir ./davinci-github-safe-publish
+git clone https://github.com/zwyin/davinci-skills.git
+claude --plugin-dir ./davinci-skills
 ```
 
 或将 `skills/davinci-github-safe-publish/SKILL.md` 复制到你的项目 skill 目录。
@@ -195,10 +195,10 @@ bash scripts/validate_skill.sh
 ## 项目结构
 
 ```
-github-safe-publish/
+davinci-github-safe-publish/
 ├── .claude-plugin/          # 插件元数据
 ├── skills/                  # Skill 定义
-│   └── github-safe-publish/
+│   └── davinci-github-safe-publish/
 │       └── SKILL.md         # 唯一事实源
 ├── docs/
 │   ├── README_zh.md         # 中文文档
