@@ -31,11 +31,11 @@ Or with options:
 
 | Platform | Install |
 |----------|---------|
-| **Claude Code** | `/plugin marketplace add zwyin/project-walkthrough-skill` |
+| **Claude Code** | `/plugin marketplace add zwyin/davinci-skills` |
 | **Cursor** | Copy `cursor/project-walkthrough.mdc` → `.cursor/rules/` |
 | **Windsurf** | Copy `.windsurf/rules/project-walkthrough.md` → `.windsurf/rules/` |
 | **OpenCode** | Copy `.opencode/skills/davinci-project-walkthrough/` → `.opencode/skills/` |
-| **Gemini CLI** | `gemini skills install https://github.com/zwyin/project-walkthrough-skill.git --path skills/davinci-project-walkthrough` |
+| **Gemini CLI** | `gemini skills install https://github.com/zwyin/davinci-skills.git --path skills/davinci-project-walkthrough` |
 
 ## Output
 
