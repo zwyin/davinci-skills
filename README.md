@@ -4,7 +4,7 @@
 
 Claude Code skills that simplify complex tasks — masterful tools for masterful work.
 
-English | [中文](#)
+English | [中文](README_zh.md)
 
 > DaVinci: like the Renaissance master who simplified complexity into elegance. Every skill in this collection brings masterful precision to your workflow.
 
