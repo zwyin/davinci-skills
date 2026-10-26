@@ -1,7 +1,7 @@
 {
   "name": "davinci-skills",
   "description": "Claude Code skills that simplify complex tasks",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "owner": {
     "name": "zwyin"
   },
@@ -21,7 +21,8 @@
       ],
       "skills": [
         "./skills/davinci-github-safe-publish/skills/davinci-github-safe-publish",
-        "./skills/davinci-project-walkthrough/skills/davinci-project-walkthrough"
+        "./skills/davinci-project-walkthrough/skills/davinci-project-walkthrough",
+        "./skills/davinci-version-check/skills/davinci-version-check"
       ]
     }
   ]
